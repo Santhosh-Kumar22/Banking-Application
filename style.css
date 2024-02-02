@@ -1,8 +1,3 @@
-/*
- * Use this CSS to learn some intersting techniques,
- * in case you're wondering how I built the UI.
- * Have fun! 😁
- */
 
  * {
     margin: 0;
@@ -18,7 +13,7 @@
   body {
     font-family: 'Poppins', sans-serif;
     color: #444;
-    background-color: #f3f3f3;
+    background-color: #bcebe8;
     height: 100vh;
     padding: 2rem;
   }
@@ -53,13 +48,13 @@
     border-radius: 10rem;
     margin-right: 1rem;
     color: inherit;
-    border: 1px solid #fff;
+    border: 1px solid #bcebe8;
     transition: all 0.3s;
   }
   
   .login__input:focus {
     outline: none;
-    border: 1px solid #ccc;
+    border: 1px solid #bcebe8;
   }
   
   .login__input::placeholder {
@@ -114,7 +109,7 @@
   
   .balance__date {
     font-size: 1.4rem;
-    color: #888;
+    color: #767474;
   }
   
   .balance__value {
@@ -125,7 +120,7 @@
   /* MOVEMENTS */
   .movements {
     grid-row: 2 / span 3;
-    background-color: #fff;
+    background-color: #eaebeb;
     border-radius: 1rem;
     overflow: scroll;
   }
@@ -214,15 +209,15 @@
   }
   
   .operation--transfer {
-    background-image: linear-gradient(to top left, #ffb003, #ffcb03);
+    background-image: linear-gradient(to top left, #dba124, #d4af19);
   }
   
   .operation--loan {
-    background-image: linear-gradient(to top left, #39b385, #9be15d);
+    background-image: linear-gradient(to top left, #379e76, #83cc44);
   }
   
   .operation--close {
-    background-image: linear-gradient(to top left, #e52a5a, #ff585f);
+    background-image: linear-gradient(to top left, #e9466e, #d33840);
   }
   
   h2 {
